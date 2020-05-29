@@ -78,4 +78,5 @@ commands:
                   name: Run Symfony local server
                   environment:
                       APP_DEBUG: 0
+                      APP_ENV: prod
                   command: symfony local:server:start -d
